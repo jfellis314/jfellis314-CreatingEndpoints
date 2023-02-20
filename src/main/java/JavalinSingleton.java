@@ -19,7 +19,7 @@ public class JavalinSingleton {
     
         //write endpoint here-
         app.get("/hello", ctx->{
-            
+            ctx.result("Hello World");
         });
 
         return app;
